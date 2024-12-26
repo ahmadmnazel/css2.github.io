@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 30;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        form{
+
+            padding: 12px;
+            background-color: rgb(200, 197, 197);
+            width: 460px;
+            margin: auto;
+            border-radius: 10px;
+box-shadow:none ;   
+border: none;    
+ }
+        label{
+            display: block;
+        }
+       .input{
+            padding: 12px;
+            width: 90%;
+            box-shadow:none ;   
+            border: none; 
+            margin: 12px 12px;
+            border-radius: 4px;
+
+        }
+        
+        input[type="submit"]{
+            background-color: rgb(41, 212, 41);
+           color: white;
+        }
+
+        hr{
+            margin: 20px;
+        }
+        .dropbtn {
+background-color: green;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor:pointer;
+}
+
+.dropdown-c {
+display:none;
+position:absolute;
+background-color: lightgray;
+width: 160px;
+z-index: 1;
+
+}
+.dropdown-c a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-c a:hover
+{background-color: yellow}
+
+.dropdown:hover
+.dropdown-c {
+display: block;}
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="">First Name <br></label><input type="text" placeholder="Your Name ...." class="input">
+        <label for="">Last Name <br></label><input type="text" placeholder="Your Last Name ...." class="input">
+        <label for="">Country <br>
+            
+            
+        </label><select class="input">
+                <option value="United States">United States</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="American Samoa">American Samoa</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Anguilla">Anguilla</option>
+                <option value="Antartica">Antarctica</option>
+                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Aruba">Aruba</option>
+                <option value="Australia">Australia</option>
+            </select>
+        <input type="submit" value="submit" class="input">
+    </form>
+
+    <hr>
+
+    <div class="dropdown">
+        <button
+        class="dropbtn">Dropdown</butt
+        on>
+        <div class="dropdown-c">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+        </div>
+        <p> this is a dropdown menu</p></body>
+</html>
